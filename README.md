@@ -10,5 +10,10 @@ La definición de la nube puede parecer poco clara, pero, básicamente, es un t�
 -Software as a Service (SAAS)
 Es un modelo de distribución de software donde el soporte lógico y los datos que maneja se alojan en servidores de una compañía de tecnologías de información y comunicación (TIC), a los que se accede vía Internet desde un cliente. Algunos ejemplos comunes son el correo electrónico, los calendarios y las herramientas ofimáticas (como Microsoft Office 365).
 ![image](https://user-images.githubusercontent.com/83620170/117591630-f85ba400-b0fa-11eb-81fa-c53ca6c36eac.png)
--PAAS
--IAAS
+-Platform as a Service (PAAS)
+Marco de desarrollo. PaaS proporciona un marco que los desarrolladores pueden ampliar para desarrollar o personalizar aplicaciones basadas en la nube. De forma similar a la creación de una macro en Excel, PaaS permite a los desarrolladores crear aplicaciones usando componentes de software integrados. Algunos ejemplos pueden ser Google App Engine y Bungee Connect son dos ejemplos de plataformas como servicios y tienen las siguientes características. Google App Engine: este servicio de Google está enfocado a que el cliente pueda publicar aplicaciones web online, sin tener que preocuparse por la infraestructura donde hacerlo.
+![image](https://user-images.githubusercontent.com/83620170/117591808-b54e0080-b0fb-11eb-9b28-90fdb69a9f6b.png)
+-Infrastructure as a Service (IAAS)
+Se refiere a los servicios en línea que proporcionan un alto-nivel de APIs utilizadas para indireccionar detalles a bajo nivel de infraestructura como recursos de informática física, ubicación, dato partitioning, scaling, seguridad, copia de seguridad etc. Un hypervisor, como Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, o Hyper-V, LXD, corre las máquinas virtuales como huéspedes. Pools de hypervisors dentro del sistema operacional de la nube pueden apoyar gran cantidad de máquinas virtuales y la capacidad de adaptarse a los servicios según los requisitos de los clientes. Contenedores de Linux funcionan en particiones aisladas de un Linux kernel, que a la vez se ejecuta directamente en el hardware. Linux cgroups y namespaces son las tecnologías subyacentes de Linux  para aislar, asegurar y dirigir los distintos contenedores. Containerisation ofrece un rendimiento más alto que la virtualizacion, porque hay no hypervisor por encima.
+![image](https://user-images.githubusercontent.com/83620170/117591876-f6461500-b0fb-11eb-8cd5-c579f51e9a43.png)
+-Kernet
