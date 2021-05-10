@@ -35,7 +35,13 @@ Marco de desarrollo. PaaS proporciona un marco que los desarrolladores pueden am
 Se refiere a los servicios en línea que proporcionan un alto-nivel de APIs utilizadas para indireccionar detalles a bajo nivel de infraestructura como recursos de informática física, ubicación, dato partitioning, scaling, seguridad, copia de seguridad etc. Un hypervisor, como Xen, Oracle VirtualBox, Oracle VM, KVM, VMware ESX/ESXi, o Hyper-V, LXD, corre las máquinas virtuales como huéspedes. Pools de hypervisors dentro del sistema operacional de la nube pueden apoyar gran cantidad de máquinas virtuales y la capacidad de adaptarse a los servicios según los requisitos de los clientes. Contenedores de Linux funcionan en particiones aisladas de un Linux kernel, que a la vez se ejecuta directamente en el hardware. Linux cgroups y namespaces son las tecnologías subyacentes de Linux  para aislar, asegurar y dirigir los distintos contenedores. Containerisation ofrece un rendimiento más alto que la virtualizacion, porque hay no hypervisor por encima.
 
 ![image](https://user-images.githubusercontent.com/83620170/117591876-f6461500-b0fb-11eb-8cd5-c579f51e9a43.png)
-# - Kernet
+# - Kernel
+Kernel o núcleo, es una parte fundamental del sistema operativo que se encarga de conceder el acceso al hardware de forma segura para todo el software que lo solicita, el Kernel es una pequeña e invisible parte del sistema operativo, pero la más importante, ya que sin esta no podría funcionar. Todos los sistemas operativos tienen un Kernel, incluso Windows 10, pero quizá el más famoso es el Kernel de Linux, que ahora además está integrado en Windows 10 con sus últimas actualizaciones.
+
+Este núcleo de los sistemas operativos se ejecuta en modo privilegiado con acceso especial a los recursos del sistema para poder realizar las peticiones de acceso que le va pidiendo el software que lo necesita, además como los recursos no son ilimitados, también hace de arbitro a la hora de asignarlos, decidiendo el orden de las peticiones recibidas según la prioridad e importancia de estas. 
+
+El Kernel o núcleo de un sistema operativo sirve para administrar los recursos de hardware solicitados por los diferentes elementos de software y hacer de intermediario decidiendo a que y cuando se concede este acceso evitando así sobrecarga del sistema, recursos innecesarios y acceso a software malicioso al propio Kernel y llegar a poder controlar así todo el sistema. De este modo el Kernel sirve como elemento de seguridad teniendo que pasar por varias capas antes de poder tener acceso, además tiene que distribuir los recursos de manera eficiente y ordenada para que el Hardware trabaje junto al Software de la mejor manera posible.
+![image](https://user-images.githubusercontent.com/83620170/117592392-f34c2400-b0fd-11eb-9de7-c0343e062e64.png)
 
 # - Servicios de Azure
 
@@ -54,3 +60,5 @@ Se refiere a los servicios en línea que proporcionan un alto-nivel de APIs util
 -DevOps: Se encarga de automatizar el desarrollo de softwarer. Un ejemplo de esto es GitHub.
 
 -Inteligencia artificial: Se encarga de los cognitive service y de los servicios de machine learning.
+
+![image](https://user-images.githubusercontent.com/83620170/117592428-1a0a5a80-b0fe-11eb-8af0-73e8f1fb7244.png)
